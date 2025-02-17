@@ -1,0 +1,29 @@
+name: video_player_app
+description: "A Flutter project for video player app like Netflix or MX Player."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.3.0  # Local video playback
+  chewie: ^1.2.2        # For better UI and controls
+  cupertino_icons: ^1.0.8
+  youtube_player_flutter: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/video1.mp4
+    - assets/video2.mp4
+    - assets/video3.mp4
+    - assets/video1_thumb.jpg
+    - assets/video2_thumb.jpg
+    - assets/video3_thumb.jpg
